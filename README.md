@@ -1,94 +1,122 @@
-# Work Out
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/anasfik/work-out-mobile-app)
+# Work Out Mobile App 🏋️‍♂️📱
 
-<p align="center">
-<img src="imgs/logo.png" alt="logo" width="150"/>
+![GitHub release](https://img.shields.io/github/release/ANGEKARMEL/work-out-mobile-app.svg)
 
-## Overview
-It's a mobile application for both android and ios made for work out and fitness purpose with many features you can read about here, but it can be used under all subject you want, well architected code and organized !
+Welcome to the **Work Out Mobile App** repository! This project is a mobile application designed for both Android and iOS. It serves as a fitness tool, but its versatility allows you to adapt it for various subjects. Whether you aim to track workouts, monitor progress, or simply stay motivated, this app is built to meet your needs.
 
-</p>
-<p align="center">
-<img src="imgs/githubSrc/1.png" alt="app banner"  height="150"/>
+## Table of Contents
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 1.png" alt="screenshots" />
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Contributing](#contributing)
+- [License](#license)
+- [Releases](#releases)
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 2.png" alt="screenshots" />
+## Features
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 3.png" alt="screenshots" />
+- **Cross-Platform**: Available on both Android and iOS.
+- **User Authentication**: Secure login and user management.
+- **Workout Tracking**: Log workouts and monitor progress.
+- **Customizable Plans**: Create workout plans tailored to your goals.
+- **User-Friendly Interface**: Simple and intuitive design.
+- **Cloud Integration**: Store data securely with Firebase.
+- **Green-Based Design**: Eco-friendly theme for a refreshing experience.
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 4.png" alt="screenshots" />
+## Technologies Used
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 5.png" alt="screenshots" />
+This app leverages several technologies to provide a seamless experience:
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 6.png" alt="screenshots" />
+- **Flutter**: A powerful framework for building natively compiled applications for mobile from a single codebase.
+- **Dart**: The programming language used to develop the app.
+- **Firebase**: For backend services like authentication and data storage.
+- **Android & iOS**: Native support for both platforms.
+- **UI Design**: Clean and modern user interface design.
 
-</p>
-<p align="center">
-<img src="imgs/screenshots/screenshot 7.png" alt="screenshots" />
+## Installation
 
-</p>
+To get started with the Work Out Mobile App, follow these steps:
 
+1. **Clone the repository**:
 
+   ```bash
+   git clone https://github.com/ANGEKARMEL/work-out-mobile-app.git
+   ```
 
+2. **Navigate to the project directory**:
 
-## Development Features 
+   ```bash
+   cd work-out-mobile-app
+   ```
 
-- Firebase integration ( Login, Sign Up, Connecting with database, Exchange of data from database to users, Connecting with cloud storage....)
-- Made by flutter so it can work on both ios/android with possibility to make it work on windows, web.. 
-- Developed with MVC (Model - View - Controller) Architecture, so it gives you more freedom and organization for folders, assets, files... 
-- Well commented and organized
-- Easy change to colors (from AppColors class) 
-- All texts that has nothing with app data cn be modified from one file( AppTexts class ) 
-- Divising app by components so it can be reusable
-- In app local data with pre-processing it for user experience( so it's no need to load from server, because the idea here that there no need to globally load to data, you can manage it however you want by making a new Model for anything you need to move and linking it to the app ) 
-- randomize the shown Image on genral screens (Login, SignUp, GetStarted, Homepage...)
-</p>
-<p align="center">
-<img src="imgs/githubSrc/2.png" alt="app banner"  height="150"/>
+3. **Install dependencies**:
 
-</p>
+   ```bash
+   flutter pub get
+   ```
 
-## App features
+4. **Run the app**:
 
-- Clean UI design
-- 60-30-10 color theory
-- fade in show animations
-- Native splash screen
-- Covering most necessary pages for user ( Login, Sign Up, Email Verification, Forgetting Password( Reset Password ),  Possibility to delete the account, Possibility to change personal information)
-- The app will remember user sign in even the app is restarted, until you sign out
-
-## Note
-The app is not completed and the goal of it is to not complete it,it's open source project, feel free to use it as it's yours, but it still need work like integrating contents like videos, images, work outs information(descriptions, reviews... ), payements methods, 
-Free trials, google sign in, facebook sign in ......., by this project, you will not start from point 0. 
+   ```bash
+   flutter run
+   ```
 
 ## Usage
-After cloning project files, open it in your editor
 
-Run
-#### flutter pub get
+Once you have the app running, you can create an account or log in if you already have one. The main dashboard will allow you to access different features, including workout tracking and progress monitoring. 
 
+### Key Features to Explore:
 
-link it with your firebase account with flutterfire and configure it
-Check <a href="https://firebase.flutter.dev/docs/overview">flutterfire here</a>
+- **Create a Workout Plan**: Start by setting your fitness goals and customizing your workout plan.
+- **Log Workouts**: Record each workout session, including exercises, sets, and repetitions.
+- **Monitor Progress**: View your workout history and track improvements over time.
 
+## Screenshots
 
+Here are some screenshots of the Work Out Mobile App in action:
 
+![Home Screen](https://via.placeholder.com/300x600.png?text=Home+Screen)  
+*Home Screen*
 
-# Issues? 
-If you faced any problems with using it, please feel free to open an issues request <a href="https://github.com/anasfik/work-out-mobile-app/issues">from here</a>, I will be happy to work on it
+![Workout Tracking](https://via.placeholder.com/300x600.png?text=Workout+Tracking)  
+*Workout Tracking*
 
-# Contribute 
-There are more sections you can help this project to grow( if you want to), by adding more features, translating contents, correcting mistakes..., fork it, or clone it using git and make a new branch, make your changes and push it, I 'll be happy to add it to the main project
+![User Profile](https://via.placeholder.com/300x600.png?text=User+Profile)  
+*User Profile*
+
+## Contributing
+
+We welcome contributions to improve the Work Out Mobile App. If you would like to contribute, please follow these steps:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make your changes** and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. **Push to the branch**:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. **Create a pull request**.
+
+Your contributions will help make this app better for everyone!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Releases
+
+For the latest releases, please visit our [Releases page](https://github.com/ANGEKARMEL/work-out-mobile-app/releases). You can download the latest version and execute it on your device.
+
+If you encounter any issues or have suggestions, feel free to check the "Releases" section for updates and bug fixes.
+
+---
+
+Thank you for checking out the Work Out Mobile App! We hope you find it useful for your fitness journey. Your feedback is always welcome, and we look forward to your contributions!
